@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management Frontend</title>
+</head>
+<body>
+    <h1>Library Management System</h1>
+
+    <h2>Add Book</h2>
+    <form id="bookForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <button type="submit">Add Book</button>
+    </form>
+
+    <h2>All Books</h2>
+    <button onclick="getBooks()">Load Books</button>
+    <ul id="bookList"></ul>
+
+    <script src="js/App.js"></script>
+</body>
+</html>

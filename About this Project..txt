@@ -1,0 +1,19 @@
+About this Project.
+Created by Senthil on 26/07/2026
+
+A basic Library Management System Web API with database integration and CRUD endpoints. Created a simple front‑end using plain HTML + JavaScript to call Web API endpoints.
+1. Add books using the forms.
+2. Click Load Books to see the list populated from your API.
+3. call https://localhost:[port]/index.html
+
+System requirements:
+
+OS: Windows 10 or later.
+IDE: Visual Studio 2022.
+.NET SDK: .NET 6, .NET 7, or .NET 8.
+Languages: C# (for API), JavaScript/HTML/CSS (for front‑end).
+Package Manager: NuGet (built into Visual Studio)
+Microsoft.EntityFrameworkCore.SqlServer 8.0
+Microsoft.EntityFrameworkCore.Tools 8.0
+Sql Server Database
+
