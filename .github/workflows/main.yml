@@ -3,7 +3,7 @@ name: Library Management CI/CD
 on:
   push:
     branches:
-      - main
+      - LibrarySystem2026
 
 env:
   DOTNET_VERSION: '8.0.x'
